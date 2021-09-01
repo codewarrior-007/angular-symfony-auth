@@ -1,0 +1,24 @@
+# Cache and logs (Symfony2)
+/back-end/app/cache/*
+/back-end/app/logs/*
+!/back-end/app/cache/.gitkeep
+!/back-end/app/logs/.gitkeep
+
+
+# Assets and user uploads
+/back-end/vendor/
+/back-end/web/bundles/
+/back-end/web/uploads/
+
+# PHPUnit
+/back-end/app/phpunit.xml
+/back-end/phpunit.
+
+# Dist
+/front-end/dist*
+
+# Composer PHAR
+*composer.phar
+*composer.lock
+
+node_modules
